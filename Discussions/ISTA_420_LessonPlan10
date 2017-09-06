@@ -4,7 +4,8 @@ ISTA_420
 
 1.	What is a window function?
 
-A window function is a function that, for each row, computes a scalar result value based on a calculation against a subset of the rows from the underlying query. 
+A window function is a function that, for each row, computes a scalar result value based on a calculation against a subset of the rows 
+from the underlying query. 
 
 2.	What does PARTITION do?
 
@@ -24,7 +25,8 @@ You use ranking window functions to rank each row with respect to others in the 
 
 6.	What is an offset window function? Why would you use it? 
 
-Offset window functions is used to return an element from a row that is at a certain offset from the current row or at the beginning or end of a window frame. T-SQL supports two pairs of offset functions: LAG and LEAD, and FIRST_VALUE and LAST_VALUE. 
+Offset window functions is used to return an element from a row that is at a certain offset from the current row or at the beginning 
+or end of a window frame. T-SQL supports two pairs of offset functions: LAG and LEAD, and FIRST_VALUE and LAST_VALUE. 
 
 7.	What do LEAD and LAG DO?
 
@@ -36,7 +38,10 @@ You use the FIRST_VALUE and LAST_VALUE functions to return an element from the f
 
 9.	What is an aggregate window function? Why would you use it? 
 
-You use aggregate window functions to aggregate the rows in the defined window. They support window-partition, window-order, and window-frame clauses
+You use aggregate window functions to aggregate the rows in the defined window. They support window-partition, window-order, and 
+window-frame clauses
 
 10.	What is a pivot table and what does it do?
-A pivot table is a program tool that allows you to reorganize and summarize selected columns and rows of data in a spreadsheet or database table to obtain a desired report. A pivot table doesn't actually change the spreadsheet or database itself.
+
+A pivot table is a program tool that allows you to reorganize and summarize selected columns and rows of data in a spreadsheet or 
+database table to obtain a desired report. A pivot table doesn't actually change the spreadsheet or database itself.

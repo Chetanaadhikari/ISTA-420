@@ -1,0 +1,30 @@
+Name: Chetana Adhikari
+ISTA 420
+Lesson Plan 9
+
+1. What does a set operator do?
+Set operators are operators that combine rows from two query result sets.
+
+2. What are the general requirements of a set operator?
+a. The two input queries must produce results with the same number of columns. 
+b. Corresponding columns must have compatible data types. 
+
+3. What is a Venn Diagram? 
+A Venn diagram is also known as a set diagram. It is a diagram that shows all possible logical relations between a finite collection of 
+different sets.
+
+4. Draw a Venn Diagram of the UNION operator. What does it do?
+The UNION operator unifies the results of two input queries. 
+
+5. Draw a Venn Diagram of the UNION ALL operator. What does it do?
+The UNION ALL operator unifies the two input query results without attempting to remove duplicates from the result. 
+
+6. Draw a Venn Diagram of the INTERSECT operator. What does it do?
+The INTERSECT operator returns only the rows that are common to the results of the two input queries. 
+
+8. Draw a Venn Diagram of the EXCEPT operator. What does it do?
+The EXCEPT operator returns only distinct rows that appear in the first set but not the second. 
+
+10. What is the precedence of the set operators?
+The precedence of the set operators is the INTERSECT operator precedes UNION and EXCEPT, and UNION 
+and EXCEPT are evaluated in order of appearance. 

@@ -1,0 +1,47 @@
+Name: Chetana Adhikari
+ISTA_420
+Lesson Plan 7
+
+1.	What is a table expression? Can you give a technical definition of a table expression?
+
+A table expression is a named query expression that represents a valid relational table. commontable expression (CTE) 
+is a temporary named result set that is derived from a simple query and defined within the execution scope of a single SELECT, INSERT, 
+UPDATE, or DELETE statement
+
+2.	In what SQL clause are derived tables (table valued subqueries) located?
+
+Derived tables are defined in the FROM clause of an outer query.
+
+3.	What SQL key word defines a common table expression?
+
+Common table expressions are defined by using a WITH statement.
+
+4.	When using common table expressions, can a subsequent derived table use a table alias declared in a preceding table expression?
+
+Each common table expression can refer to all previously defined common table expressions, and the outer query can refer to all common 
+table expressions.
+
+5.	Can a main query refer to a previously defined common table expression by multiple aliases?
+
+Yes a main query can refer to a previously defined common table expression.
+
+6. In SQL, is a view a durable object?
+
+View’s definition is stored as permanent objects in the database, thereby making it reusable.
+
+8.	In a view, what does WITH CHECK OPTION do? Why is this important?
+
+WHITE CHECK OPTION prevents using the view to make modifications that the view wouldn't return.
+
+9.	In a view, what does SCHEMABINDING do? Why is this important?
+
+SCHEMABINDING binds the schema of referenced objects and columns to the schema of the referencing object. It is important as it helps 
+prevent errors at run time from trying to query the view and referenced objects or columns that do not exist.
+
+10.	What is a table valued function?
+
+Table valued functions are reusable table expressions that support input parameters. 
+
+11.	What does the APPLY operator do?
+
+The APPLY operator allows you to invoke a table-valued function for each row returned by an outer table expression of a query
